@@ -145,3 +145,87 @@ form button {
 form button:hover {
     background: #4534fe;
 }
+
+/* ============================= */
+/* 📱 Tablets (até 1024px) */
+/* ============================= */
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .drop-list .select-box {
+        width: 12rem;
+    }
+
+    .select-box select {
+        width: 8rem;
+    }
+}
+
+/* ============================= */
+/* 📱 Celulares (até 768px) */
+/* ============================= */
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header img {
+        height: 6rem;
+    }
+
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .drop-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .drop-list .select-box {
+        width: 100%;
+    }
+
+    .select-box select {
+        width: 100%;
+    }
+
+    .drop-list .icon {
+        margin-top: 0;
+        transform: rotate(90deg);
+    }
+}
+
+/* ============================= */
+/* 📱 Celulares pequenos (até 480px) */
+/* ============================= */
+@media (max-width: 480px) {
+
+    .wrapper header {
+        font-size: 22px;
+    }
+
+    form input {
+        font-size: 15px;
+    }
+
+    form button {
+        font-size: 15px;
+        height: 45px;
+    }
+
+    form .exchange-rate {
+        font-size: 15px;
+        text-align: center;
+    }
+}
