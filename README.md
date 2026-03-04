@@ -8,6 +8,7 @@ O projeto permite selecionar moedas de origem e destino, realizar a conversão i
 
 Interface moderna com efeito glassmorphism, bandeiras dinâmicas e layout responsivo para desktop, tablet e dispositivos móveis.
 
+#Deploy:🔗 https://geilsonfreire.github.io/conversor-moeda/
 <img src="./1.jpg" alt="Logo">
 
 🛠️ Tecnologias Utilizadas
